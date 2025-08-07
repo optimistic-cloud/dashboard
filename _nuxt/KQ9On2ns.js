@@ -1,0 +1,1 @@
+import{_ as s}from"./DlAUqK2U.js";import{o,a as t,g as r,r as a}from"./_L_OgPlA.js";const c={},n={class:"min-h-screen"},l={class:"max-w-screen-2xl mx-auto xl:flex-row px-4"};function _(e,d){return o(),t("div",n,[r("div",l,[a(e.$slots,"default")])])}const m=s(c,[["render",_]]);export{m as default};
