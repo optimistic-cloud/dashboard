@@ -1,0 +1,71 @@
+name: Build dashboard
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - run: git clone https://github.com/hywax/mafl.git --depth 1
+
+      - run: |
+          mkdir -p ./mafl/data
+          cp config.yml ./mafl/data/
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install yarn
+        run: npm install -g yarn
+
+      - name: Cache Yarn dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles('mafl/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: mafl/node_modules
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('mafl/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
+
+      - name: Install dependencies
+        run: yarn install
+        working-directory: ./mafl
+
+      - name: Build static site
+        run: yarn generate
+        working-directory: ./mafl
+
+      - name: Prepare publish directory
+        run: |
+          rm -rf ./public
+          cp -r ./mafl/dist ./public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

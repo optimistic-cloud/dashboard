@@ -1,0 +1,15 @@
+title: Optimistic Cloud
+
+services:
+  Optimistic Cloud:
+    - title: Status Page
+      description: Status page for Optimistic Cloud services
+      link: https://status.optimistic.cloud
+      status:
+        enabled: false
+
+tags:
+  - name: Home
+    color: green
+  - name: Work
+    color: blue
