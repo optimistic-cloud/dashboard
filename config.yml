@@ -2,14 +2,97 @@ title: Optimistic Cloud
 
 services:
   Optimistic Cloud:
+
+    - title: Immich
+      description: Photo and Video management solution
+      link: https://immich.tryrocket.cloud
+      icon:
+        name: simple-icons:immich
+        wrap: true
+        color: '#4250AF'
+      status:
+        enabled: false
+
+    - title: Gitea
+      description: Git with a cup of tea!
+      link: https://git.optimistic.cloud
+      icon:
+        name: simple-icons:gitea
+        wrap: true
+        color: '#609926'
+      status:
+        enabled: false
+
+    - title: Opengist
+      description: Self-hosted pastebin powered by Git
+      link: https://gist.optimistic.cloud
+      icon:
+        url: https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg
+      status:
+        enabled: false
+
+    - title: Papra
+      description: Document management
+      link: https://documents.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
+      status:
+        enabled: false
+
+    - title: Vaultwarden
+      description: Password manager
+      link: https://vaultwarden.optimistic.cloud
+      icon:
+        name: simple-icons:vaultwarden
+        wrap: true
+        color: '#000000'
+      status:
+        enabled: false
+
+    - title: Vaultwarden Admin
+      description: Administration for Vaultwarden
+      link: https://vaultwarden.optimistic.cloud/admin
+      icon:
+        name: simple-icons:vaultwarden
+        wrap: true
+        color: '#000000'
+      status:
+        enabled: false
+
+    - title: Pocket ID
+      description: identity provider
+      link: https://id.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/pocket-id.webp
+      status:
+        enabled: false
+
+    - title: Traefik Dashboard
+      description: reverse proxy and load balancer
+      link: https://traefik.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
+      status:
+        enabled: false
+
     - title: Status Page
       description: Status page for Optimistic Cloud services
       link: https://status.optimistic.cloud
       status:
         enabled: false
+      tags:
+        - Infrastructure
+
+    - title: Documentation
+      description: Documentation for Optimistic Cloud services
+      link: https://docs.optimistic.cloud
+      status:
+        enabled: false
+      tags:
+        - Infrastructure
 
 tags:
   - name: Home
     color: green
-  - name: Work
+  - name: Infrastructure
     color: blue
