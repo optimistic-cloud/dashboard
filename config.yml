@@ -85,7 +85,7 @@ services:
 
     - title: Documentation
       description: Documentation for Optimistic Cloud services
-      link: https://docs.optimistic.cloud
+      link: https://documentation.optimistic.cloud
       status:
         enabled: false
       tags:
