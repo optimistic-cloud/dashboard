@@ -69,7 +69,7 @@ jobs:
         working-directory: ./mafl
 
       - run: |
-          ls -la ./mafl/dist
+          ls -la ./mafl/dist/public
 
       - name: Prepare publish directory
         run: |
