@@ -23,8 +23,11 @@ jobs:
       - run: git clone https://github.com/hywax/mafl.git --depth 1
 
       - run: |
+          ls -la ./mafl
           rm -rf ./mafl/favicons
+          ls -la ./mafl
           cp -r favicons ./mafl/favicons
+          ls -la ./mafl
 
       - run: |
           mkdir -p ./mafl/data
