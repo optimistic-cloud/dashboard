@@ -68,6 +68,9 @@ jobs:
         run: yarn generate
         working-directory: ./mafl
 
+      - run: |
+          ls -la ./mafl/dist
+
       - name: Prepare publish directory
         run: |
           rm -rf ./public
