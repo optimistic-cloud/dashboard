@@ -23,6 +23,9 @@ jobs:
       - run: git clone https://github.com/hywax/mafl.git --depth 1
 
       - run: |
+          ls -la ./mafl/
+          ls -la ./mafl/src/
+          ls -al ./mafl/src/public/
           ls -la ./mafl/src/public/favicons/
           rm -rf ./mafl/src/public/favicons/
           ls -la ../mafl/src/public/favicons/
