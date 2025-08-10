@@ -28,9 +28,8 @@ jobs:
           ls -al ./mafl/src/public/
           ls -la ./mafl/src/public/favicons/
           rm -rf ./mafl/src/public/favicons/
-          #ls -la ./mafl/src/public/favicons/
-          #cp -r favicons ./mafl/src/public/favicons/
-          #ls -la ../mafl/src/public/favicons/
+          cp -r favicons ./mafl/src/public/favicons/
+          ls -la ../mafl/src/public/favicons/
 
       - run: |
           mkdir -p ./mafl/data
