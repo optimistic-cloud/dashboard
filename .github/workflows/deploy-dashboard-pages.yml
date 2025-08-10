@@ -72,7 +72,7 @@ jobs:
           ls -la ./mafl/.output/public
           rm ./mafl/.output/public/manifest.webmanifest
           ls -la ./mafl/.output/public
-          cp manifest.webmanifest /mafl/.output/public/manifest.webmanifest
+          cp manifest.webmanifest /mafl/.output/public/
 
       - name: Prepare publish directory
         run: |
