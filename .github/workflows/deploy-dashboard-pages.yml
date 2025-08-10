@@ -69,6 +69,7 @@ jobs:
         working-directory: ./mafl
 
       - run: |
+          cat ./mafl/.output/public/manifest.webmanifest
           ls -la ./mafl/.output/public
           rm ./mafl/.output/public/manifest.webmanifest
           ls -la ./mafl/.output/public
