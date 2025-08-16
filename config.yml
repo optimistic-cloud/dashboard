@@ -2,7 +2,6 @@ title: Optimistic Cloud
 
 services:
   Optimistic Cloud:
-
     - title: Immich
       description: Photo and Video management solution
       link: https://immich.tryrocket.cloud
@@ -12,7 +11,6 @@ services:
         color: '#4250AF'
       status:
         enabled: false
-
     - title: Gitea
       description: Git with a cup of tea!
       link: https://git.optimistic.cloud
@@ -22,7 +20,6 @@ services:
         color: '#609926'
       status:
         enabled: false
-
     - title: Opengist
       description: Self-hosted pastebin powered by Git
       link: https://gist.optimistic.cloud
@@ -30,7 +27,6 @@ services:
         url: https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg
       status:
         enabled: false
-
     - title: Papra
       description: Document management
       link: https://documents.optimistic.cloud
@@ -38,7 +34,6 @@ services:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
       status:
         enabled: false
-
     - title: Vaultwarden
       description: Password manager
       link: https://vaultwarden.optimistic.cloud
@@ -48,7 +43,6 @@ services:
         color: '#000000'
       status:
         enabled: false
-
     - title: Vaultwarden Admin
       description: Administration for Vaultwarden
       link: https://vaultwarden.optimistic.cloud/admin
@@ -58,7 +52,6 @@ services:
         color: '#000000'
       status:
         enabled: false
-
     - title: Pocket ID
       description: identity provider
       link: https://id.optimistic.cloud
@@ -66,7 +59,6 @@ services:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/pocket-id.webp
       status:
         enabled: false
-
     - title: Traefik Dashboard
       description: reverse proxy and load balancer
       link: https://traefik.optimistic.cloud
@@ -74,7 +66,6 @@ services:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
       status:
         enabled: false
-
     - title: Status Page
       description: Status page for Optimistic Cloud services
       link: https://status.optimistic.cloud
@@ -82,7 +73,6 @@ services:
         enabled: false
       tags:
         - Infrastructure
-
     - title: Documentation
       description: Documentation for Optimistic Cloud services
       link: https://documentation.optimistic.cloud
@@ -90,7 +80,69 @@ services:
         enabled: false
       tags:
         - Infrastructure
-
+  TrueNAS:
+    - title: TrueNAS
+      description: Admin Dashboard
+      link: https://192.168.188.173:444
+      icon:
+        name: simple-icons:truenas
+        wrap: true
+        color: '#0095D5'
+      status:
+        enabled: false
+    - title: TrueNAS API
+      description: API docs
+      link: https://truenas.tryrocket.cloud/api/docs/
+      icon:
+        name: simple-icons:swagger
+        wrap: true
+        color: '#85EA2D'
+      status:
+        enabled: false
+    - title: TrueNAS Netdata
+      description: Monitoring
+      link: https://truenas.tryrocket.cloud/netdata
+      icon:
+        name: simple-icons:netdata
+        wrap: true
+        color: '#00AB44'
+      status:
+        enabled: false
+    - title: Minio
+      description: High Performance Object Storage
+      link: https://minio.tryrocket.cloud
+      icon:
+        name: simple-icons:minio
+        wrap: true
+        color: '#C72E49'
+      status:
+        enabled: false
+  Infrastructure (External):
+    - title: Healthchecks.io
+      description: Cron job monitoring
+      link: https://healthchecks.io
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/healthchecks.webp
+      status:
+        enabled: false
+    - title: GitHub
+      description: GitHub organization for Optimistic Cloud
+      link: https://github.com/ptimistic-cloud
+      icon:
+        name: simple-icons:github
+        wrap: true
+        color: '#181717'
+      status:
+        enabled: false
+    - title: smtp2go
+      description: SMTP relay
+      link: https://smtp2go.com
+      icon:
+        name: simple-icons:mailchimp
+        wrap: true
+        color: '#FFE01B'
+      status:
+        enabled: false
 tags:
   - name: Home
     color: green
