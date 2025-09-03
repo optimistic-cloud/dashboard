@@ -126,8 +126,8 @@ services:
       status:
         enabled: false
     - title: GitHub
-      description: GitHub organization for Optimistic Cloud
-      link: https://github.com/ptimistic-cloud
+      description: GitHub organization
+      link: https://github.com/optimistic-cloud
       icon:
         name: simple-icons:github
         wrap: true
