@@ -98,6 +98,7 @@ services:
         enabled: false
       tags:
         - Infrastructure
+        - Admin
         - m700
   TrueNAS:
     - title: TrueNAS
@@ -110,7 +111,9 @@ services:
       status:
         enabled: false
       tags:
+        - Admin
         - h610i
+        
     - title: TrueNAS API
       description: API docs
       link: https://truenas.tryrocket.cloud/api/docs/
