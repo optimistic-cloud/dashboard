@@ -62,20 +62,6 @@ services:
         enabled: false
       tags:
         - m700
-    - title: Status Page
-      description: Status page for Optimistic Cloud services
-      link: https://status.optimistic.cloud
-      status:
-        enabled: false
-      tags:
-        - Infrastructure
-    - title: Documentation
-      description: Documentation for Optimistic Cloud services
-      link: https://documentation.optimistic.cloud
-      status:
-        enabled: false
-      tags:
-        - Infrastructure
   App Configuration:
     - title: Vaultwarden Admin
       description: Administration for Vaultwarden
@@ -173,6 +159,20 @@ services:
         color: '#FFE01B'
       status:
         enabled: false
+    - title: Status Page
+      description: Status page for Optimistic Cloud services
+      link: https://status.optimistic.cloud
+      status:
+        enabled: false
+      tags:
+        - Infrastructure
+    - title: Documentation
+      description: Documentation for Optimistic Cloud services
+      link: https://documentation.optimistic.cloud
+      status:
+        enabled: false
+      tags:
+        - Infrastructure
 tags:
   - name: Home
     color: green
