@@ -178,6 +178,7 @@ tags:
   - name: Admin
     color: red
   - name: m700
-    color: grey
+    color: lime
   - name: h60i
-    color: grey
+    color: orange
+# red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose
