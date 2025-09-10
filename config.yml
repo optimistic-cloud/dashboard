@@ -54,7 +54,7 @@ services:
       tags:
         - m700
     - title: Pocket ID
-      description: identity provider
+      description: Identity provider
       link: https://id.optimistic.cloud
       icon:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/pocket-id.webp
