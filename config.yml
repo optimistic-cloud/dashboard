@@ -11,29 +11,8 @@ services:
         color: '#4250AF'
       status:
         enabled: false
-    - title: Gitea
-      description: Git with a cup of tea!
-      link: https://git.optimistic.cloud
-      icon:
-        name: simple-icons:gitea
-        wrap: true
-        color: '#609926'
-      status:
-        enabled: false
-    - title: Opengist
-      description: Self-hosted pastebin powered by Git
-      link: https://gist.optimistic.cloud
-      icon:
-        url: https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg
-      status:
-        enabled: false
-    - title: Papra
-      description: Document management
-      link: https://documents.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
-      status:
-        enabled: false
+      tags:
+        - h610i
     - title: Vaultwarden
       description: Password manager
       link: https://vaultwarden.optimistic.cloud
@@ -43,15 +22,37 @@ services:
         color: '#000000'
       status:
         enabled: false
-    - title: Vaultwarden Admin
-      description: Administration for Vaultwarden
-      link: https://vaultwarden.optimistic.cloud/admin
+      tags:
+        - m700
+    - title: Gitea
+      description: Git with a cup of tea!
+      link: https://git.optimistic.cloud
       icon:
-        name: simple-icons:vaultwarden
+        name: simple-icons:gitea
         wrap: true
-        color: '#000000'
+        color: '#609926'
       status:
         enabled: false
+      tags:
+        - m700
+    - title: Opengist
+      description: Self-hosted pastebin powered by Git
+      link: https://gist.optimistic.cloud
+      icon:
+        url: https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg
+      status:
+        enabled: false
+      tags:
+        - m700
+    - title: Papra
+      description: Document management
+      link: https://documents.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
+      status:
+        enabled: false
+      tags:
+        - m700
     - title: Pocket ID
       description: identity provider
       link: https://id.optimistic.cloud
@@ -59,13 +60,8 @@ services:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/pocket-id.webp
       status:
         enabled: false
-    - title: Traefik Dashboard
-      description: reverse proxy and load balancer
-      link: https://traefik.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
-      status:
-        enabled: false
+      tags:
+        - m700
     - title: Status Page
       description: Status page for Optimistic Cloud services
       link: https://status.optimistic.cloud
@@ -80,6 +76,29 @@ services:
         enabled: false
       tags:
         - Infrastructure
+  App Configuration:
+    - title: Vaultwarden Admin
+      description: Administration for Vaultwarden
+      link: https://vaultwarden.optimistic.cloud/admin
+      icon:
+        name: simple-icons:vaultwarden
+        wrap: true
+        color: '#000000'
+      status:
+        enabled: false
+      tags:
+        - Admin
+        - m700
+    - title: Traefik Dashboard
+      description: reverse proxy and load balancer
+      link: https://traefik.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
+      status:
+        enabled: false
+      tags:
+        - Infrastructure
+        - m700
   TrueNAS:
     - title: TrueNAS
       description: Admin Dashboard
@@ -90,6 +109,8 @@ services:
         color: '#0095D5'
       status:
         enabled: false
+      tags:
+        - h610i
     - title: TrueNAS API
       description: API docs
       link: https://truenas.tryrocket.cloud/api/docs/
@@ -99,6 +120,8 @@ services:
         color: '#85EA2D'
       status:
         enabled: false
+      tags:
+        - h610i
     - title: TrueNAS Netdata
       description: Monitoring
       link: https://truenas.tryrocket.cloud/netdata
@@ -108,6 +131,8 @@ services:
         color: '#00AB44'
       status:
         enabled: false
+      tags:
+        - h610i
     - title: Minio
       description: High Performance Object Storage
       link: https://minio.tryrocket.cloud
@@ -117,6 +142,8 @@ services:
         color: '#C72E49'
       status:
         enabled: false
+      tags:
+        - h610i
   Infrastructure (External):
     - title: Healthchecks.io
       description: Cron job monitoring
@@ -148,3 +175,9 @@ tags:
     color: green
   - name: Infrastructure
     color: blue
+  - name: Admin
+    color: red
+  - name: m700
+    color: grey
+  - name: h60i
+    color: grey
