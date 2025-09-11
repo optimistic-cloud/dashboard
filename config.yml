@@ -62,6 +62,16 @@ services:
         enabled: false
       tags:
         - m700
+    - title: YouTrack
+      description: Project management
+      link: https://youtrack.optimistic.cloud
+      icon:
+        url: https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.svg
+      status:
+        enabled: false
+      tags:
+        - m700
+        
   App Configuration:
     - title: Vaultwarden Admin
       description: Administration for Vaultwarden
