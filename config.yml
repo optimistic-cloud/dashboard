@@ -44,29 +44,11 @@ services:
         enabled: false
       tags:
         - m700
-    - title: Papra
-      description: Document management
-      link: https://documents.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
-      status:
-        enabled: false
-      tags:
-        - m700
     - title: Pocket ID
       description: Identity provider
       link: https://id.optimistic.cloud
       icon:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/pocket-id.webp
-      status:
-        enabled: false
-      tags:
-        - m700
-    - title: YouTrack
-      description: Project management
-      link: https://youtrack.optimistic.cloud
-      icon:
-        url: https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.svg
       status:
         enabled: false
       tags:
@@ -183,6 +165,26 @@ services:
         enabled: false
       tags:
         - Infrastructure
+
+  Rework:
+    - title: YouTrack
+      description: Project management
+      link: https://youtrack.optimistic.cloud
+      icon:
+        url: https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.svg
+      status:
+        enabled: false
+      tags:
+        - m700
+    - title: Papra
+      description: Document management
+      link: https://documents.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
+      status:
+        enabled: false
+      tags:
+        - m700
 tags:
   - name: Home
     color: green
