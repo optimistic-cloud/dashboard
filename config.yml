@@ -96,6 +96,18 @@ services:
         - Infrastructure
         - Admin
         - m700
+    - title: Dozzle
+      description: Realtime log viewer for containers
+      link: https://dozzle.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/dozzle.webp
+      status:
+        enabled: false
+      tags:
+        - Infrastructure
+        - Admin
+        - m700
+        
   TrueNAS:
     - title: TrueNAS
       description: Admin Dashboard
