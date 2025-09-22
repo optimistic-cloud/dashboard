@@ -85,6 +85,8 @@ services:
       tags:
         - Admin
         - m700
+
+  Infrastructure:
     - title: Traefik Dashboard
       description: reverse proxy and load balancer
       link: https://traefik.optimistic.cloud
@@ -93,8 +95,6 @@ services:
       status:
         enabled: false
       tags:
-        - Infrastructure
-        - Admin
         - m700
     - title: Dozzle
       description: Realtime log viewer for containers
@@ -104,8 +104,6 @@ services:
       status:
         enabled: false
       tags:
-        - Infrastructure
-        - Admin
         - m700
     - title: Beszel
       description: Simple, lightweight server monitoring
@@ -115,8 +113,6 @@ services:
       status:
         enabled: false
       tags:
-        - Infrastructure
-        - Admin
         - m700
 
   TrueNAS:
