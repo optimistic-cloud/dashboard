@@ -71,6 +71,15 @@ services:
         enabled: false
       tags:
         - m700
+    - title: Wallos
+      description: Subscription Tracker
+      link: https://wallos.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/wallos.webp
+      status:
+        enabled: false
+      tags:
+        - m700
 
   App Configuration:
     - title: Vaultwarden Admin
