@@ -140,7 +140,7 @@ services:
         
     - title: TrueNAS API
       description: API docs
-      link: https://truenas.tryrocket.cloud/api/docs/
+      link: https://192.168.188.173:444/api/docs/
       icon:
         name: simple-icons:swagger
         wrap: true
@@ -151,7 +151,7 @@ services:
         - h610i
     - title: TrueNAS Netdata
       description: Monitoring
-      link: https://truenas.tryrocket.cloud/netdata
+      link: hhttps://192.168.188.173:444/netdata
       icon:
         name: simple-icons:netdata
         wrap: true
