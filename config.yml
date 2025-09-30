@@ -53,15 +53,7 @@ services:
         enabled: false
       tags:
         - m700
-    - title: Redlib
-      description: Reddit
-      link: https://redlib.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/redlib.webp
-      status:
-        enabled: false
-      tags:
-        - m700
+
     - title: Invidious
       description: YouTube
       link: https://invidious.optimistic.cloud
@@ -96,15 +88,6 @@ services:
         - m700
 
   Infrastructure:
-    - title: Traefik Dashboard
-      description: reverse proxy and load balancer
-      link: https://traefik.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
-      status:
-        enabled: false
-      tags:
-        - m700
     - title: Dozzle
       description: Realtime log viewer for containers
       link: https://dozzle.optimistic.cloud
@@ -114,15 +97,7 @@ services:
         enabled: false
       tags:
         - m700
-    - title: Beszel
-      description: Simple, lightweight server monitoring
-      link: https://beszel.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/beszel.webp
-      status:
-        enabled: false
-      tags:
-        - m700
+
 
   TrueNAS:
     - title: TrueNAS
@@ -137,7 +112,6 @@ services:
       tags:
         - Admin
         - h610i
-        
     - title: TrueNAS API
       description: API docs
       link: https://192.168.188.173:444/api/docs/
@@ -231,6 +205,34 @@ services:
         enabled: false
       tags:
         - m700
+    - title: Redlib
+      description: Reddit
+      link: https://redlib.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/redlib.webp
+      status:
+        enabled: false
+      tags:
+        - m700
+    - title: Traefik Dashboard
+      description: reverse proxy and load balancer
+      link: https://traefik.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
+      status:
+        enabled: false
+      tags:
+        - m700
+    - title: Beszel
+      description: Simple, lightweight server monitoring
+      link: https://beszel.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/beszel.webp
+      status:
+        enabled: false
+      tags:
+        - m700
+        
 tags:
   - name: Home
     color: green
