@@ -39,7 +39,7 @@ services:
       description: Self-hosted pastebin powered by Git
       link: https://gist.optimistic.cloud
       icon:
-        url: https://raw.githubusercontent.com/thomiceli/opengist/master/public/opengist.svg
+        url: https://raw.githubusercontent.com/thomiceli/opengist/master/public/img/opengist.svg
       status:
         enabled: false
       tags:
