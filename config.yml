@@ -4,7 +4,7 @@ services:
   Optimistic Cloud:
     - title: Immich
       description: Photo and Video management solution
-      link: https://immich.tryrocket.cloud
+      link: https://immich.optimistic.cloud
       icon:
         name: simple-icons:immich
         wrap: true
