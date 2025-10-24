@@ -58,11 +58,14 @@ services:
       description: YouTube
       link: https://invidious.optimistic.cloud
       icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/invidious.webp
+        name: simple-icons:invidious
+        wrap: true
+        color: '#00B6F0'
       status:
         enabled: false
       tags:
         - m700
+
     - title: Wallos
       description: Subscription Tracker
       link: https://wallos.optimistic.cloud
@@ -97,7 +100,6 @@ services:
         enabled: false
       tags:
         - m700
-
 
   TrueNAS:
     - title: TrueNAS
