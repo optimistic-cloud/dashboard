@@ -100,7 +100,15 @@ services:
         enabled: false
       tags:
         - m700
-
+    - title: Beszel
+      description: Simple, lightweight server monitoring
+      link: https://beszel.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/beszel.webp
+      status:
+        enabled: false
+      tags:
+        - m700
   TrueNAS:
     - title: TrueNAS
       description: Admin Dashboard
@@ -215,15 +223,7 @@ services:
         enabled: false
       tags:
         - m700
-    - title: Beszel
-      description: Simple, lightweight server monitoring
-      link: https://beszel.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/beszel.webp
-      status:
-        enabled: false
-      tags:
-        - m700
+
     - title: Minio
       description: High Performance Object Storage
       link: https://minio.tryrocket.cloud
