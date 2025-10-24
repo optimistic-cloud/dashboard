@@ -134,17 +134,7 @@ services:
         enabled: false
       tags:
         - h610i
-    - title: Minio
-      description: High Performance Object Storage
-      link: https://minio.tryrocket.cloud
-      icon:
-        name: simple-icons:minio
-        wrap: true
-        color: '#C72E49'
-      status:
-        enabled: false
-      tags:
-        - h610i
+
   Infrastructure (External):
     - title: Healthchecks.io
       description: Cron job monitoring
@@ -232,7 +222,26 @@ services:
         enabled: false
       tags:
         - m700
-        
+    - title: Minio
+      description: High Performance Object Storage
+      link: https://minio.tryrocket.cloud
+      icon:
+        name: simple-icons:minio
+        wrap: true
+        color: '#C72E49'
+      status:
+        enabled: false
+      tags:
+        - h610i
+    - title: Garage
+      description: High Performance Object Storage
+      link: https://garage.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/garage.webp
+      status:
+        enabled: false
+      tags:
+        - h610i
 tags:
   - name: Home
     color: green
