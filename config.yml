@@ -133,17 +133,29 @@ services:
         enabled: false
       tags:
         - h610i
-    - title: TrueNAS Netdata
-      description: Monitoring
-      link: https://nas.optimistic.cloud:444/netdata
+    - title: TrueNAS (Replication)
+      description: Admin Dashboard
+      link: https://192.168.188.166
       icon:
-        name: simple-icons:netdata
+        name: simple-icons:truenas
         wrap: true
-        color: '#00AB44'
+        color: '#0095D5'
       status:
         enabled: false
       tags:
-        - h610i
+        - Admin
+        - optiplex-3060
+    - title: TrueNAS API
+      description: API docs
+      link: https://192.168.188.166/api/docs/
+      icon:
+        name: simple-icons:swagger
+        wrap: true
+        color: '#85EA2D'
+      status:
+        enabled: false
+      tags:
+        - optiplex-3060
 
   Infrastructure (External):
     - title: Healthchecks.io
@@ -255,4 +267,7 @@ tags:
     color: lime
   - name: h60i
     color: orange
+  - name: optiplex-3060
+    color: fuchsia
+    
 # red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose
