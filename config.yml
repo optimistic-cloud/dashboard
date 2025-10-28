@@ -76,6 +76,16 @@ services:
       tags:
         - m700
 
+    - title: Garage
+      description: High Performance Object Storage
+      link: https://garage.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/garage.webp
+      status:
+        enabled: false
+      tags:
+        - h610i
+
   App Configuration:
     - title: Vaultwarden Admin
       description: Administration for Vaultwarden
@@ -247,15 +257,7 @@ services:
         enabled: false
       tags:
         - h610i
-    - title: Garage
-      description: High Performance Object Storage
-      link: https://garage.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/garage.webp
-      status:
-        enabled: false
-      tags:
-        - h610i
+
 tags:
   - name: Home
     color: green
