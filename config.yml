@@ -168,9 +168,16 @@ services:
         - optiplex-3060
 
   Infrastructure (External):
-    - title: Healthchecks.io
+    - title: Healthchecks.io (external)
       description: Cron job monitoring
       link: https://healthchecks.io
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/healthchecks.webp
+      status:
+        enabled: false
+    - title: Healthchecks.io
+      description: Cron job monitoring
+      link: https://hc.optimistic.cloud
       icon:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/healthchecks.webp
       status:
