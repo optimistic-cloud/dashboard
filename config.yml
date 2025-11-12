@@ -119,6 +119,15 @@ services:
         enabled: false
       tags:
         - m700
+    - title: Beszel vps
+      description: Simple, lightweight server monitoring
+      link: https://beszel-vps.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/beszel.webp
+      status:
+        enabled: false
+      tags:
+        - vps
   TrueNAS:
     - title: TrueNAS
       description: Admin Dashboard
@@ -182,6 +191,8 @@ services:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/healthchecks.webp
       status:
         enabled: false
+      tags:
+        - vps
     - title: GitHub
       description: GitHub organization
       link: https://github.com/optimistic-cloud
@@ -278,5 +289,6 @@ tags:
     color: orange
   - name: optiplex-3060
     color: fuchsia
-    
+  - name: vps
+    color: yellow
 # red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose
