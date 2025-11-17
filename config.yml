@@ -85,6 +85,15 @@ services:
         enabled: false
       tags:
         - h610i
+    - title: Jellyfin
+      description: The Free Software Media System
+      link: https://jellyfin.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/jellyfin.webp
+      status:
+        enabled: false
+      tags:
+        - m700
 
   App Configuration:
     - title: Vaultwarden Admin
