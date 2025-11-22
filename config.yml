@@ -110,6 +110,18 @@ services:
         - m700
 
   Infrastructure:
+    - title: Adguard Home
+      description: Network-wide ads & trackers blocking DNS server
+      link: http://192.168.188.176:8083
+      icon:
+        name: simple-icons:adguard
+        wrap: true
+        color: '#68BC71'
+      status:
+        enabled: false
+      tags:
+        - rpi02
+
     - title: Dozzle
       description: Realtime log viewer for containers
       link: https://dozzle.optimistic.cloud
@@ -300,4 +312,6 @@ tags:
     color: fuchsia
   - name: vps
     color: yellow
+  - name: rpi02
+    color: teal
 # red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose
