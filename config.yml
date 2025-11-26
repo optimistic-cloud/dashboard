@@ -110,7 +110,7 @@ services:
         - m700
 
   Infrastructure:
-    - title: Adguard Home
+    - title: Adguard Home (ns1)
       description: Network-wide ads & trackers blocking DNS server
       link: https://ns1.optimistic.cloud
       icon:
@@ -121,6 +121,15 @@ services:
         enabled: false
       tags:
         - rpi02
+    - title: Adguard Home (ns2)
+      description: Network-wide ads & trackers blocking DNS server
+      link: https://ns2.optimistic.cloud
+      icon:
+        name: simple-icons:adguard
+        wrap: true
+        color: '#68BC71'
+      status:
+        enabled: false
 
     - title: Dozzle
       description: Realtime log viewer for containers
