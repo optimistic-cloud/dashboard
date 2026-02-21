@@ -235,7 +235,7 @@ services:
       status:
         enabled: false
       tags:
-        - vps
+        - m700
     - title: GitHub
       description: GitHub organization
       link: https://github.com/optimistic-cloud
