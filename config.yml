@@ -108,6 +108,16 @@ services:
       tags:
         - m700
 
+    - title: Journiv
+      description: Journaling
+      link: https://journiv.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
+      status:
+        enabled: false
+      tags:
+        - m700
+
   App Configuration:
     - title: Vaultwarden Admin
       description: Administration for Vaultwarden
