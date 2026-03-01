@@ -102,7 +102,7 @@ services:
       icon:
         name: simple-icons:outline
         wrap: true
-        color: '##000000'
+        color: '#000000'
       status:
         enabled: false
       tags:
@@ -113,6 +113,54 @@ services:
       link: https://journiv.optimistic.cloud
       icon:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
+      status:
+        enabled: false
+      tags:
+        - m700
+
+    - title: Element
+      description: Matrix web and desktop client
+      link: https://element.optimistic.cloud
+      icon:
+        name: simple-icons:element
+        wrap: true
+        color: '#0DBD8B'
+      status:
+        enabled: false
+      tags:
+        - m700
+
+    - title: Element Admin
+      description: web-based administration panel
+      link: https://element-admin.optimistic.cloud
+      icon:
+        name: simple-icons:element
+        wrap: true
+        color: '#0DBD8B'
+      status:
+        enabled: false
+      tags:
+        - m700
+
+    - title: Matrix
+      description: matrix
+      link: https://matrix.optimistic.cloud
+      icon:
+        name: simple-icons:matrix
+        wrap: true
+        color: '#000000'
+      status:
+        enabled: false
+      tags:
+        - m700
+
+    - title: Matrix Authentication Service
+      description: Matrix Authentication Service
+      link: https://mas.optimistic.cloud
+      icon:
+        name: simple-icons:matrix
+        wrap: true
+        color: '#000000'
       status:
         enabled: false
       tags:
