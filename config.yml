@@ -118,6 +118,7 @@ services:
       tags:
         - m700
 
+  Matrix:
     - title: Element
       description: Matrix web and desktop client
       link: https://element.optimistic.cloud
