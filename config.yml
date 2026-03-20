@@ -108,16 +108,6 @@ services:
       tags:
         - m700
 
-    - title: Journiv
-      description: Journaling
-      link: https://journiv.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
-      status:
-        enabled: false
-      tags:
-        - m700
-
   Matrix:
     - title: Element
       description: Web client for Matrix
@@ -377,7 +367,15 @@ services:
         enabled: false
       tags:
         - h610i
-
+    - title: Journiv
+      description: Journaling
+      link: https://journiv.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
+      status:
+        enabled: false
+      tags:
+        - m700
 tags:
   - name: Home
     color: green
