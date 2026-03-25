@@ -193,15 +193,6 @@ services:
       status:
         enabled: false
 
-    - title: Dozzle
-      description: Realtime log viewer for containers
-      link: https://dozzle.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/dozzle.webp
-      status:
-        enabled: false
-      tags:
-        - m700
     - title: Beszel
       description: Simple, lightweight server monitoring
       link: https://beszel.optimistic.cloud
@@ -372,6 +363,15 @@ services:
       link: https://journiv.optimistic.cloud
       icon:
         url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
+      status:
+        enabled: false
+      tags:
+        - m700
+    - title: Dozzle
+      description: Realtime log viewer for containers
+      link: https://dozzle.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/dozzle.webp
       status:
         enabled: false
       tags:
