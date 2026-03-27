@@ -202,15 +202,6 @@ services:
         enabled: false
       tags:
         - m700
-    - title: Beszel vps
-      description: Simple, lightweight server monitoring
-      link: https://beszel-vps.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/beszel.webp
-      status:
-        enabled: false
-      tags:
-        - vps
   TrueNAS:
     - title: TrueNAS
       description: Admin Dashboard
