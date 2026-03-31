@@ -300,73 +300,73 @@ services:
       tags:
         - Infrastructure
 
-  Rework:
-    - title: YouTrack
-      description: Project management
-      link: https://youtrack.optimistic.cloud
-      icon:
-        url: https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.svg
-      status:
-        enabled: false
-      tags:
-        - m700
-    - title: Papra
-      description: Document management
-      link: https://documents.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
-      status:
-        enabled: false
-      tags:
-        - m700
-    - title: Redlib
-      description: Reddit
-      link: https://redlib.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/redlib.webp
-      status:
-        enabled: false
-      tags:
-        - m700
-    - title: Traefik Dashboard
-      description: reverse proxy and load balancer
-      link: https://traefik.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
-      status:
-        enabled: false
-      tags:
-        - m700
-
-    - title: Minio
-      description: High Performance Object Storage
-      link: https://minio.tryrocket.cloud
-      icon:
-        name: simple-icons:minio
-        wrap: true
-        color: '#C72E49'
-      status:
-        enabled: false
-      tags:
-        - h610i
-    - title: Journiv
-      description: Journaling
-      link: https://journiv.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
-      status:
-        enabled: false
-      tags:
-        - m700
-    - title: Dozzle
-      description: Realtime log viewer for containers
-      link: https://dozzle.optimistic.cloud
-      icon:
-        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/dozzle.webp
-      status:
-        enabled: false
-      tags:
-        - m700
+#  Rework:
+#    - title: YouTrack
+#      description: Project management
+#      link: https://youtrack.optimistic.cloud
+#      icon:
+#        url: https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.svg
+#      status:
+#        enabled: false
+#      tags:
+#        - m700
+#    - title: Papra
+#      description: Document management
+#      link: https://documents.optimistic.cloud
+#      icon:
+#        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/papra.webp
+#      status:
+#        enabled: false
+#      tags:
+#        - m700
+#    - title: Redlib
+#      description: Reddit
+#      link: https://redlib.optimistic.cloud
+#      icon:
+#        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/redlib.webp
+#      status:
+#        enabled: false
+#      tags:
+#        - m700
+#    - title: Traefik Dashboard
+#      description: reverse proxy and load balancer
+#      link: https://traefik.optimistic.cloud
+#      icon:
+#        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/traefik.webp
+#      status:
+#        enabled: false
+#      tags:
+#        - m700
+#
+#    - title: Minio
+#      description: High Performance Object Storage
+#      link: https://minio.tryrocket.cloud
+#      icon:
+#        name: simple-icons:minio
+#        wrap: true
+#        color: '#C72E49'
+#      status:
+#        enabled: false
+#      tags:
+#        - h610i
+#    - title: Journiv
+#      description: Journaling
+#      link: https://journiv.optimistic.cloud
+#      icon:
+#        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/journiv.webp
+#      status:
+#        enabled: false
+#      tags:
+#        - m700
+#    - title: Dozzle
+#      description: Realtime log viewer for containers
+#      link: https://dozzle.optimistic.cloud
+#      icon:
+#        url: https://cdn.jsdelivr.net/gh/selfhst/icons/webp/dozzle.webp
+#      status:
+#        enabled: false
+#      tags:
+#        - m700
 tags:
   - name: Home
     color: green
