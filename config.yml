@@ -108,6 +108,18 @@ services:
       tags:
         - m700
 
+    - title: Feeds
+      description: News feeds
+      link: https://feeds.optimistic.cloud
+      icon:
+        name: simple-icons:rss
+        wrap: true
+        color: '#FFA500'
+      status:
+        enabled: false
+      tags:
+        - github-pages
+
   Matrix:
     - title: Element
       description: Web client for Matrix
@@ -384,4 +396,6 @@ tags:
     color: yellow
   - name: rpi02
     color: teal
+  - name: github-pages
+    color: amber
 # red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose
