@@ -120,6 +120,17 @@ services:
       tags:
         - github-pages
 
+    - title: Davis Dashboard
+      description: CalDav & CardDav Management
+      link: https://dav.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/davis.webp
+      status:
+        enabled: false
+      tags:
+        - Admin
+        - m700
+
   Matrix:
     - title: Element
       description: Web client for Matrix
