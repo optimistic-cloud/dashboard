@@ -131,6 +131,17 @@ services:
         - Admin
         - m700
 
+    - title: LLDAP Dashboard
+      description: LDAP
+      link: https://ldap.optimistic.cloud
+      icon:
+        url: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/lldap.webp
+      status:
+        enabled: false
+      tags:
+        - Admin
+        - m700
+
   Matrix:
     - title: Element
       description: Web client for Matrix
