@@ -68,6 +68,13 @@ jobs:
         run: yarn generate
         working-directory: ./mafl
 
+      - name: Inject analytics script
+        working-directory: ./mafl
+        run: |
+          set -euo pipefail
+          grep -q '</head>' dist/index.html
+          sed -i 's|</head>|<script data-goatcounter="https://3ef1b957-7dc8-4a1e-8ebf-1074d8844b6a.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>\n</head>|' dist/index.html
+
       - run: |
           cat ./mafl/.output/public/manifest.webmanifest
           ls -la ./mafl/.output/public
