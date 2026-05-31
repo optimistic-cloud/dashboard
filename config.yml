@@ -142,6 +142,19 @@ services:
         - Admin
         - m700
 
+    - title: Docs
+      description: docs
+      link: https://docs.optimistic.cloud
+      icon:
+        name: simple-icons:wikibooks
+        wrap: true
+        color: '#006699'
+      status:
+        enabled: false
+      tags:
+        - Admin
+        - m700
+
     - title: LLDAP
       description: LDAP Server
       link: https://ldap.optimistic.cloud
