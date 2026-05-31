@@ -35,6 +35,17 @@ services:
         enabled: false
       tags:
         - m700
+    - title: Gitlab
+      description: Git
+      link: https://gitlab.optimistic.cloud
+      icon:
+        name: simple-icons:gitlab
+        wrap: true
+        color: '#FC6D26'
+      status:
+        enabled: false
+      tags:
+        - m700
     - title: Opengist
       description: Self-hosted pastebin powered by Git
       link: https://gist.optimistic.cloud
